@@ -1,6 +1,6 @@
 ---
 - name: Ping a device by IP
-  hosts: firewalls
+  hosts: 10.211.55.14
   gather_facts: no
 
   tasks:
