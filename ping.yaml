@@ -1,6 +1,6 @@
 ---
 - name: Ping a device by IP
-  hosts: 10.211.55.14
+  hosts: Host
   gather_facts: no
 
   tasks:
