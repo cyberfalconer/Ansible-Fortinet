@@ -1,0 +1,8 @@
+---
+- name: Ping a device by IP
+  hosts: firewalls
+  gather_facts: no
+
+  tasks:
+    - name: Ping the target host
+      ansible.builtin.ping:
