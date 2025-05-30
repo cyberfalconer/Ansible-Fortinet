@@ -1,8 +1,11 @@
----
 - name: Ping a device by IP
   hosts: Host
   gather_facts: no
 
   tasks:
+    - name: Print debug message
+      debug:
+        msg: "Running ping test..."
+
     - name: Ping the target host
       ansible.builtin.ping:
